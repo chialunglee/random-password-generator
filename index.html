@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Random password generator</title>
+</head>
+<body>
+  <div>
+    <label for="length">Length of password:</label>
+    <input type="number" id="length" value="8" required>
+  </div>
+  <div>
+    <input type="checkbox" id="uppercase" checked>
+    <label for="uppercase">Uppercase letter</label>
+    <input type="checkbox" id="lowercase" checked>
+    <label for="lowercase">Lowercase letter</label>
+    <input type="checkbox" id="number" checked>
+    <label for="number">Number</label>
+    <input type="checkbox" id="special">
+    <label for="special">Special character</label>
+  </div>
+  <div>
+    <label for="result">Your password:</label>
+    <input type="text" id="result">
+  </div>
+  <div>
+    <input type="submit" value="Generate" id="button">
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
